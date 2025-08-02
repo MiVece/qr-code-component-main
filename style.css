@@ -1,0 +1,60 @@
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.outfit-body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  text-align: center;
+
+  max-width: 270px;   /* Controls how wide the card can be */
+  width: 90%;         /* Keeps it responsive on small screens */
+  padding: 1rem;     /* Adds spacing inside */
+  padding-bottom: 2rem;
+  margin: 1rem, auto;   /* Centers it and pushes it down slightly */
+}
+
+.container img {
+  max-width: 100%;     /* Prevent image from exceeding container */
+  height: auto;        /* Maintain original aspect ratio */
+  border-radius: 15px; /* Optional: soften image corners */
+  margin-bottom: 0.7rem;;
+}
+
+p{
+  font-weight: 400;
+  margin: 0.8rem;
+}
+
+h3{
+  margin: 1.2rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
